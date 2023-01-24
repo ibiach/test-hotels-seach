@@ -1,1 +1,1 @@
-# test-hotels-seach
+Команда для запуска проекта yarn dev
