@@ -1,0 +1,28 @@
+.day_picker > * {
+	font-family: AGrotesk, sans-serif;
+}
+
+.calendar {
+	cursor: pointer;
+	position: absolute;
+	top: 30%;
+	left: 88%;
+}
+
+.input {
+	cursor: pointer;
+	position: relative;
+}
+
+.popper {
+	position: absolute;
+	z-index: 100;
+
+	margin-top: 10px;
+
+	font-family: agrotesk, sans-serif;
+
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 11px rgb(0 0 0 / 15%);
+}

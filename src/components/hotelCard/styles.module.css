@@ -1,0 +1,90 @@
+.hotel {
+	display: flex;
+
+	min-width: 297px;
+	margin-top: 16px;
+	margin-right: 16px;
+
+	line-height: 22px;
+
+	border-bottom: solid 1px rgb(135 135 135 / 20%);
+}
+
+.hotel:last-child {
+	border-bottom: none;
+}
+
+.hotel_house {
+	position: relative;
+
+	width: 64px;
+	height: 64px;
+	margin-right: 24px;
+
+	background: rgb(65 82 46 / 5%);
+	border-radius: 50%;
+}
+
+.hotel_house_img {
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	margin: 0;
+}
+
+.hotel_info {
+	flex: 1;
+}
+
+.name {
+	display: flex;
+	justify-content: space-between;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.date_main {
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 10px;
+
+	font-size: 14px;
+	font-weight: 400;
+	color: #878787;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.stars > img {
+	margin-right: 3.4px;
+}
+
+.price {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+
+	margin-bottom: 8px;
+
+	color: #424242;
+}
+
+.price > div > img {
+	display: inline-block;
+	margin-right: 3.5px;
+}
+
+.price_price {
+	margin-right: 8px;
+	font-size: 11px;
+	font-weight: 300;
+}
+
+.price_cost {
+	font-size: 17px;
+	font-weight: 400;
+}

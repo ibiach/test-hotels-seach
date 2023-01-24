@@ -1,0 +1,42 @@
+body {
+	background: #f4f4f4;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 32px;
+}
+
+.header > p {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.logout {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.logout > p {
+	margin-right: 10px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+
+	/* width: 100%; */
+	max-height: 906px;
+	margin-right: 184px;
+	margin-bottom: 24px;
+	margin-left: 208px;
+}
+
+.aside_panel {
+	max-height: 100%;
+	margin-right: 24px;
+}

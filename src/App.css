@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@font-face {
+	font-family: AGrotesk, sans-serif;
+	src: url('./assets/fonts/aktivgroteskcorp_regular.ttf') format('ttf'),
+		url('./assets/fonts/aktivgroteskcorp_medium.ttf') format('ttf');
+}
+
+body {
+	min-height: 100vh;
+	font-family: Roboto, sans-serif;
+}
+
+*,
+html,
+body {
+	box-sizing: border-box;
+}

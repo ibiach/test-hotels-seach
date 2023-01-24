@@ -1,0 +1,154 @@
+.favorite {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+
+	max-width: 360px;
+	height: 100%;
+	max-height: 472px;
+	padding: 32px 16px 32px 32px;
+
+	letter-spacing: -0.408px;
+
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 4px 33px rgb(0 0 0 / 4%);
+}
+
+.favorite > p {
+	margin-bottom: 32px;
+
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: 0;
+}
+
+.search {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.filter {
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+
+	height: 28px;
+	margin-right: 8px;
+	padding: 8px;
+
+	font-size: 14px;
+	font-weight: 400;
+
+	border: 1px solid #41522e;
+	border-radius: 4px;
+}
+
+.filter_rating {
+	width: 89px;
+}
+
+.filter_cost {
+	width: 71px;
+}
+
+.filter > p {
+	margin-right: 9px;
+}
+
+.arrows {
+	margin-top: -2px;
+}
+
+.arrows > p {
+	margin: -7.5px 0;
+}
+
+.hotels {
+	overflow: hidden;
+}
+
+.hotels:hover {
+	overflow-y: auto;
+}
+
+.hotel {
+	min-width: 297px;
+	margin-top: 16px;
+	margin-right: 16px;
+
+	line-height: 22px;
+
+	border-bottom: solid 1px rgb(135 135 135 / 20%);
+}
+
+.hotel:last-child {
+	border-bottom: none;
+}
+
+.name {
+	display: flex;
+	justify-content: space-between;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.date {
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 10px;
+
+	font-size: 14px;
+	font-weight: 400;
+	color: #878787;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.stars > img {
+	margin-right: 3.4px;
+}
+
+.price {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+
+	margin-bottom: 8px;
+
+	color: #424242;
+}
+
+.price > div > img {
+	display: inline-block;
+	margin-right: 3.5px;
+}
+
+.price_price {
+	margin-right: 8px;
+	font-size: 11px;
+	font-weight: 300;
+}
+
+.price_cost {
+	font-size: 17px;
+	font-weight: 400;
+}
+
+::-webkit-scrollbar {
+	width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #41522e;
+}
+
+::-webkit-scrollbar-track {
+	scroll-margin-right: 30px;
+}

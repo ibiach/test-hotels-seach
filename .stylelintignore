@@ -1,0 +1,5 @@
+*.jsx
+*.js
+*.md
+*.svg
+/node_modules

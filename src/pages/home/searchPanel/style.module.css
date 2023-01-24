@@ -1,0 +1,39 @@
+.search {
+	width: 360px;
+	height: 410px;
+	margin-bottom: 24px;
+	padding: 32px;
+
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 4px 33px rgb(0 0 0 / 4%);
+}
+
+.form > div {
+	margin-bottom: 16px;
+}
+
+.form > div:nth-last-child(2) {
+	margin-bottom: 32px;
+}
+
+.form > div > label {
+	display: block;
+	margin-bottom: 7px;
+}
+
+/* .data_picker {
+	position: absolute;
+	margin-bottom: 40px;
+} */
+
+/* .date {
+	position: relative;
+} */
+
+.calendar {
+	cursor: pointer;
+	position: absolute;
+	top: 55%;
+	left: 90%;
+}
